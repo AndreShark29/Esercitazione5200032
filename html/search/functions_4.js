@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['_7eisotrapezoid_0',['~IsoTrapezoid',['../class_iso_trapezoid.html#a55661b1d94284f100cb4062a5a94a963',1,'IsoTrapezoid']]],
-  ['_7eisotriangle_1',['~IsoTriangle',['../class_iso_triangle.html#a571ee144cc4909539740ad58ef6d2abd',1,'IsoTriangle']]],
-  ['_7erighttrapezoid_2',['~RightTrapezoid',['../class_right_trapezoid.html#ab0b449339c7b42ed1c50f38c28d0fdce',1,'RightTrapezoid']]],
-  ['_7erighttriangle_3',['~RightTriangle',['../class_right_triangle.html#adb71384833c72f763b3b940d1b8969f4',1,'RightTriangle']]]
+  ['operator_3d_0',['operator=',['../class_iso_trapezoid.html#a37913ec7276b483b8b1c6c0ac5e75747',1,'IsoTrapezoid::operator=()'],['../class_iso_triangle.html#af9f8e2f0e6155205c2d512cae2799b12',1,'IsoTriangle::operator=()'],['../class_polygon.html#afa6c4ee147650491a3685c645430b992',1,'Polygon::operator=()'],['../class_right_trapezoid.html#aaa3ef1b94704d37ccacc94bb2edd0815',1,'RightTrapezoid::operator=()'],['../class_right_triangle.html#ac18cd39c46b65f2dd6216c8e4dd0320f',1,'RightTriangle::operator=()']]],
+  ['operator_3d_3d_1',['operator==',['../class_iso_trapezoid.html#af82bf8c775e3ca374f9783ccdc83bb90',1,'IsoTrapezoid::operator==()'],['../class_iso_triangle.html#a19e341593bdbd53dc3dce233a0e049e8',1,'IsoTriangle::operator==()'],['../class_polygon.html#a0e7572ea3f662a652643bb275e115292',1,'Polygon::operator==()'],['../class_right_trapezoid.html#aca698bfb610da27fe83dc3c1d3a54293',1,'RightTrapezoid::operator==()'],['../class_right_triangle.html#af7f3e469b30ebb7213e9d31405894481',1,'RightTriangle::operator==()']]]
 ];

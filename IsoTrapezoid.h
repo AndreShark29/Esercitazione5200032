@@ -24,8 +24,9 @@ public:
 	/// @name CONSTRUCTORS/DESTRUCTOR
 	/// @{
 	IsoTrapezoid();
-	IsoTrapezoid(float top, float bottom,float height);
+	IsoTrapezoid(float t, float b,float h);
 	IsoTrapezoid(const IsoTrapezoid& it);
+
 	virtual ~IsoTrapezoid();
 	/// @}
 
