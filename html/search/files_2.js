@@ -1,5 +1,7 @@
 var searchData=
 [
-  ['righttrapezoid_2eh_0',['RightTrapezoid.h',['../_right_trapezoid_8h.html',1,'']]],
-  ['righttriangle_2eh_1',['RightTriangle.h',['../_right_triangle_8h.html',1,'']]]
+  ['rectangle_2ecpp_0',['rectangle.cpp',['../rectangle_8cpp.html',1,'']]],
+  ['rectangle_2eh_1',['rectangle.h',['../rectangle_8h.html',1,'']]],
+  ['rhombus_2ecpp_2',['rhombus.cpp',['../rhombus_8cpp.html',1,'']]],
+  ['rhombus_2eh_3',['rhombus.h',['../rhombus_8h.html',1,'']]]
 ];

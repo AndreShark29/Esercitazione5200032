@@ -47,20 +47,20 @@ public:
 	/// @{
 	void SetBase(float b);
 	void SetHeight(float h);
-
+	void SetParam(float b, float h);
 	/// @}
 
 	/// @name GETTERS
 	/// @{
-	float GetSide() { return sqrtf(pow(base / 2, 2) + pow(height, 2)); };
+	float GetSide() { return (float)sqrtf(pow((base/2), 2) + pow(height, 2)); };
 	float GetBase() { return base; };
 	float GetHeight() { return height; };
 	/// @}
 
 
-	/// @name functions
+	/// @name UTILITIES
 	/// @{
-	void Draw() { cout << "Drawing a Triangle" << endl; };
+	void Draw();
 	void Dump();
 	/// @}
 

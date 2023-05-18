@@ -1,5 +1,4 @@
 #include "IsoTriangle.h"
-#include <math.h>
 
 /////////////////////////////-CONSTRUCTORS-///////////////////////////////////////
 
@@ -70,14 +69,13 @@ bool IsoTriangle::operator==(const IsoTriangle& r) {
 	return false;
 }
 
-//////////////////////////////-INIT & RESET-///////////////////////////////////////////////////////////////////7
-
+//////////////////////////////-INIT & RESET-/////////////////////////////////////////
 /// @brief default initialization of the object
 void IsoTriangle::Init() {
 	Reset();
 	base = 0.;
 	height = 0.;
-
+	//updates the Area and Perimeter of the polygon. This repets throw the next function with the same goal.
 	Area();
 	Perimeter();
 }
@@ -98,7 +96,7 @@ void IsoTriangle::Init(const IsoTriangle& it) {
 void IsoTriangle::Reset() {
 	base = 0.;
 	height = 0.;
-
+	
 	Area();
 	Perimeter();
 }
@@ -116,7 +114,7 @@ void IsoTriangle::SetBase(float b) {
 	Perimeter();
 };
 /// @brief SetHeight sets the height value. Height is a protected variable 
-/// @param h is the give value used to set the height
+/// @param h is the given value used to set the height
 void IsoTriangle::SetHeight(float h) { 
 	if (h < 0) {
 		cout << "WARNING - IsoTriangle - SetBase: Cannot set the height with an invalid value";
@@ -126,6 +124,24 @@ void IsoTriangle::SetHeight(float h) {
 	Area();
 	Perimeter();
 };
+/// @brief SetParam sets both height and base value. both are protected variables
+/// @param h is the given value used to set the height
+/// @param b is the given value used to set the base
+void IsoTriangle::SetParam(float b, float h) {
+	if (h < 0) {
+		cout << "WARNING - IsoTriangle - SetBase: Cannot set the height with an invalid value";
+		return;
+	}
+
+	if (b < 0) {
+		cout << "WARNING - IsoTriangle - SetBase: Cannot set the base with an invalid value";
+		return;
+	}
+	base = b;
+	height = h;
+	Area();
+	Perimeter();
+}
 /////////////////////////////////////////////////////////////////////////////////////
 
 ///////////////////////////////-GETTERS&FUNCTIONS-///////////////////////////////////
@@ -140,13 +156,19 @@ float IsoTriangle::Area() {
 /// @brief Perimeter sets the perimeter of the IsoTriangle with the current base and height
 /// @return a float perimeter valure
 float IsoTriangle::Perimeter() {
-	perimeter = (base + 2 * height);
+	perimeter = (base + 2 * GetSide());
 	return perimeter;
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
 //////////////////////////////-DUMP-/////////////////////////////////////////////////////////
+///@brief used to print Area and Perimeter values
+void IsoTriangle::Draw() {
+	cout << "Area--> " << Area() <<endl;
+	cout << "Perimeter--> " << Perimeter() <<endl;
+}
+
 /// @brief for debugging: all about the object
 void IsoTriangle::Dump() {
 
