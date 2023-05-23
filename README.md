@@ -19,12 +19,12 @@ una funzione per il calcolo dell'area e del perimetro e del lato, nonchè del se
 ##IsoTriangle
 E' la classe usata per la gestione di oggetti Triangoli isosceli. E' una classe derivata da quella base polygon e contiene 
 una funzione per il calcolo dell'area e del perimetro e del lato obliquo, nonchè del settaggio dei suoi parametri base e altezza.
-Funzioni Setters: SetBase(float b);
-	                SetHeight(float h);
-                  SetParam(float b, float h);
-Funzioni Getters: float GetSide() ;
-                  float GetBase();
-	                float GetHeight();
+Funzioni Setters: SetBase(float b)
+	          SetHeight(float h)
+                  SetParam(float b, float h)
+Funzioni Getters: float GetSide() 
+                  float GetBase()
+	          float GetHeight()
 ##Polygon
 Classe base che rappresenta poligoni generici e 
 definisce i metodi di calcolo per area e perimetro.
