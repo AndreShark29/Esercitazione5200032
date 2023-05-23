@@ -25,6 +25,8 @@ Funzioni Setters: SetBase(float b)
 Funzioni Getters: float GetSide() 
                   float GetBase()
 	          float GetHeight()
+		  
+		  
 ##Polygon
 Classe base che rappresenta poligoni generici e 
 definisce i metodi di calcolo per area e perimetro.
