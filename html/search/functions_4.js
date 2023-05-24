@@ -1,5 +1,0 @@
-var searchData=
-[
-  ['init_0',['Init',['../class_iso_triangle.html#a9fff24a171222ec55c03fbc51272cba2',1,'IsoTriangle::Init()'],['../class_iso_triangle.html#af9372cbe4250c38f9404f1303293356e',1,'IsoTriangle::Init(const IsoTriangle &amp;it)'],['../class_polygon.html#ae971a221f26793e00ee3055aaa5853b0',1,'Polygon::Init()'],['../class_polygon.html#a19a11205b332be736c329275bb3b045d',1,'Polygon::Init(const Polygon &amp;r)'],['../class_rectangle.html#a8455713eb235a92116c6a0aa704c713b',1,'Rectangle::Init()'],['../class_rectangle.html#aa3c2f8749d438cc4180c268cdcde3108',1,'Rectangle::Init(const Rectangle &amp;r)'],['../class_rhombus.html#af0169681fb729d68acf7388885f7966b',1,'Rhombus::Init()'],['../class_rhombus.html#a6803eac7ba6667188207141f8484d303',1,'Rhombus::Init(const Rhombus &amp;r)']]],
-  ['isotriangle_1',['IsoTriangle',['../class_iso_triangle.html#aa74cb74b20e57fe63679f38c99b90c8f',1,'IsoTriangle::IsoTriangle()'],['../class_iso_triangle.html#ad3c46e785ceecbf2ed4b2838221bb69d',1,'IsoTriangle::IsoTriangle(float b, float h)'],['../class_iso_triangle.html#aa0d71a31aed67f3c94bc435ca82f4330',1,'IsoTriangle::IsoTriangle(const IsoTriangle &amp;it)']]]
-];
